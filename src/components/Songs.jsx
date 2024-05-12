@@ -24,6 +24,8 @@ function Songs(){
     return (
         <>
             <div className=" w-full h-screen bg-gray-900 flex flex-col items-center justify-center gap-2">
+                <h1 className=" text-2xl font-medium mb-5 text-white">Event Handeling in React</h1>
+
                 {data.map((element, index) => (
                     <div key={index} className=" w-90 bg-slate-200 px-2 py-2 rounded">
                         <h1 className=" font-medium text-lg mb-1">{element.name}</h1>

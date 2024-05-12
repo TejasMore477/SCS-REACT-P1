@@ -42,6 +42,9 @@ function Card(){
 
     return(
         <div className="w-full h-screen px-4 bg-slate-500 flex gap-4 items-center justify-center">  
+
+            <h1 className=" text-2xl font-medium mb-5 text-white">Conditional Rendering in React</h1>
+            
             {data.map((elem,index) => (
                 <div key={index} className="bg-zinc-100 rounded-md overflow-hidden w-fit">
                     <div className="w-52 h-32 bg-zinc-300">
